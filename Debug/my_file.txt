@@ -1,0 +1,7 @@
+model\Eeyore - ANIM\.x.x
+model\Owl - anim\sov.x
+model\Kanga - ANIM\Kanga.x
+model\Piglet - ANIM\.x.x
+model\Pooh - ANIM\.x.x
+model\Rabbit -anim\rob.x
+model\Tigger - anim\tig.x

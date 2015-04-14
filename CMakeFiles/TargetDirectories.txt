@@ -1,0 +1,3 @@
+D:/AR_avt_3d_2/CMakeFiles/ALL_BUILD.dir
+D:/AR_avt_3d_2/CMakeFiles/App.dir
+D:/AR_avt_3d_2/CMakeFiles/ZERO_CHECK.dir

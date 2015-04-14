@@ -1,0 +1,119 @@
+﻿Сборка начата 27.03.2015 23:56:10.
+     1>Проект "D:\AR_avt_3d_2\App.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\AR_avt_3d_2\App\src /ID:\AR_avt_3d_2\App\external\Assimp\include /ID:\AR_avt_3d_2\App\external\ALVAR\include /ID:\AR_avt_3d_2\App\external\glew\include /ID:\AR_avt_3d_2\App\external\glm /ID:\AR_avt_3d_2\App\external\SDL\include /ID:\AR_avt_3d_2\App\external\SDL2_ttf\include /ID:\AR_avt_3d_2\App\external\opencv\include /ID:\AR_avt_3d_2\App\external\opencv\include\opencv /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"App.dir\Debug\\" /Fd"App.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt App\src\CApplication.cpp
+         CApplication.cpp
+     1>d:\ar_avt_3d_2\app\external\alvar\include\alvar\Util.h(238): warning C4251: alvar::Index::val: class "std::vector<int,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами struct "alvar::Index"
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>d:\ar_avt_3d_2\app\external\alvar\include\alvar\Util.h(254): warning C4251: alvar::Histogram::bins: class "std::map<alvar::Index,int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>" должен иметь dll-интерфейс для использования клиентами class "alvar::Histogram"
+                 with
+                 [
+                     _Kty=alvar::Index
+         ,            _Ty=int
+                 ]
+     1>d:\ar_avt_3d_2\app\external\alvar\include\alvar\Util.h(255): warning C4251: alvar::Histogram::dim_binsize: class "std::vector<int,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами class "alvar::Histogram"
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>d:\ar_avt_3d_2\app\external\alvar\include\alvar\Util.h(277): warning C4251: alvar::HistogramSubpixel::acc_dim0: class "std::map<alvar::Index,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>" должен иметь dll-интерфейс для использования клиентами class "alvar::HistogramSubpixel"
+                 with
+                 [
+                     _Kty=alvar::Index
+         ,            _Ty=double
+                 ]
+     1>d:\ar_avt_3d_2\app\external\alvar\include\alvar\Util.h(278): warning C4251: alvar::HistogramSubpixel::acc_dim1: class "std::map<alvar::Index,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>" должен иметь dll-интерфейс для использования клиентами class "alvar::HistogramSubpixel"
+                 with
+                 [
+                     _Kty=alvar::Index
+         ,            _Ty=double
+                 ]
+     1>d:\ar_avt_3d_2\app\external\alvar\include\alvar\Util.h(279): warning C4251: alvar::HistogramSubpixel::acc_dim2: class "std::map<alvar::Index,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>" должен иметь dll-интерфейс для использования клиентами class "alvar::HistogramSubpixel"
+                 with
+                 [
+                     _Kty=alvar::Index
+         ,            _Ty=double
+                 ]
+     1>d:\ar_avt_3d_2\app\external\alvar\include\alvar\Util.h(354): warning C4251: alvar::Serialization::filename: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "alvar::Serialization"
+     1>D:\AR_avt_3d_2\App\external\ALVAR\include\ALVAR/Camera.h(48): warning C4251: alvar::ProjPoints::object_points: class "std::vector<CvPoint3D64f,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами struct "alvar::ProjPoints"
+                 with
+                 [
+                     _Ty=CvPoint3D64f
+                 ]
+     1>D:\AR_avt_3d_2\App\external\ALVAR\include\ALVAR/Camera.h(55): warning C4251: alvar::ProjPoints::image_points: class "std::vector<CvPoint2D64f,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами struct "alvar::ProjPoints"
+                 with
+                 [
+                     _Ty=CvPoint2D64f
+                 ]
+     1>D:\AR_avt_3d_2\App\external\ALVAR\include\ALVAR/Camera.h(57): warning C4251: alvar::ProjPoints::point_counts: class "std::vector<int,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами struct "alvar::ProjPoints"
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>d:\ar_avt_3d_2\app\external\alvar\include\alvar\ConnectedComponents.h(73): warning C4251: alvar::Labeling::blob_corners: class "std::vector<std::vector<alvar::PointDouble,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>" должен иметь dll-интерфейс для использования клиентами class "alvar::Labeling"
+                 with
+                 [
+                     _Ty=alvar::PointDouble
+                 ]
+     1>d:\ar_avt_3d_2\app\external\alvar\include\alvar\Bitset.h(64): warning C4251: alvar::Bitset::bits: class "std::deque<bool,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами class "alvar::Bitset"
+                 with
+                 [
+                     _Ty=bool
+                 ]
+     1>d:\ar_avt_3d_2\app\external\alvar\include\alvar\Marker.h(168): warning C4251: alvar::Marker::marker_points: class "std::vector<alvar::PointDouble,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами class "alvar::Marker"
+                 with
+                 [
+                     _Ty=alvar::PointDouble
+                 ]
+     1>d:\ar_avt_3d_2\app\external\alvar\include\alvar\Marker.h(170): warning C4251: alvar::Marker::marker_corners: class "std::vector<alvar::PointDouble,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами class "alvar::Marker"
+                 with
+                 [
+                     _Ty=alvar::PointDouble
+                 ]
+     1>d:\ar_avt_3d_2\app\external\alvar\include\alvar\Marker.h(172): warning C4251: alvar::Marker::marker_corners_img: class "std::vector<alvar::PointDouble,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами class "alvar::Marker"
+                 with
+                 [
+                     _Ty=alvar::PointDouble
+                 ]
+     1>d:\ar_avt_3d_2\app\external\alvar\include\alvar\Marker.h(174): warning C4251: alvar::Marker::marker_margin_w: class "std::vector<alvar::PointDouble,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами class "alvar::Marker"
+                 with
+                 [
+                     _Ty=alvar::PointDouble
+                 ]
+     1>d:\ar_avt_3d_2\app\external\alvar\include\alvar\Marker.h(176): warning C4251: alvar::Marker::marker_margin_b: class "std::vector<alvar::PointDouble,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами class "alvar::Marker"
+                 with
+                 [
+                     _Ty=alvar::PointDouble
+                 ]
+     1>D:\AR_avt_3d_2\App\external\ALVAR\include\ALVAR/MarkerDetector.h(67): warning C4251: alvar::MarkerDetectorImpl::map_edge_length: class "std::map<unsigned long,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>" должен иметь dll-интерфейс для использования клиентами class "alvar::MarkerDetectorImpl"
+                 with
+                 [
+                     _Kty=unsigned long
+         ,            _Ty=double
+                 ]
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\AR_avt_3d_2\Debug\SAR.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:/AR_avt_3d_2/App/external/Assimp/lib /LIBPATH:D:/AR_avt_3d_2/App/external/Assimp/lib/Debug /LIBPATH:D:/AR_avt_3d_2/App/external/ALVAR/lib/vc12 /LIBPATH:D:/AR_avt_3d_2/App/external/ALVAR/lib/vc12/Debug /LIBPATH:D:/AR_avt_3d_2/App/external/glew/lib /LIBPATH:D:/AR_avt_3d_2/App/external/glew/lib/Debug /LIBPATH:D:/AR_avt_3d_2/App/external/SDL/lib /LIBPATH:D:/AR_avt_3d_2/App/external/SDL/lib/Debug /LIBPATH:D:/AR_avt_3d_2/App/external/SDL2_ttf/lib /LIBPATH:D:/AR_avt_3d_2/App/external/SDL2_ttf/lib/Debug /LIBPATH:D:/AR_avt_3d_2/App/external/opencv/lib/vc12 /LIBPATH:D:/AR_avt_3d_2/App/external/opencv/lib/vc12/Debug kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib alvar200d.lib opencv_calib3d249d.lib opencv_contrib249d.lib opencv_core249d.lib opencv_features2d249d.lib opencv_flann249d.lib opencv_gpu249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_legacy249d.lib opencv_ml249d.lib opencv_nonfree249d.lib opencv_objdetect249d.lib opencv_ocl249d.lib opencv_photo249d.lib opencv_stitching249d.lib opencv_superres249d.lib opencv_ts249d.lib opencv_video249d.lib opencv_videostab249d.lib assimp.lib glew32.lib SDL_ttf.lib SDL.lib SDLmain.lib glu32.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/AR_avt_3d_2/Debug/App.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/AR_avt_3d_2/Debug/App.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug App.dir\Debug\CApplication.obj
+         App.dir\Debug\CDetector.obj
+         App.dir\Debug\IDetector.obj
+         App.dir\Debug\TGALoader.obj
+         App.dir\Debug\main.obj
+         App.dir\Debug\CAnimator.obj
+         App.dir\Debug\CCamera.obj
+         App.dir\Debug\CFpsCounter.obj
+         App.dir\Debug\CModel.obj
+         App.dir\Debug\CRenderer.obj
+         App.dir\Debug\CShader.obj
+         App.dir\Debug\CUtils.obj
+         App.dir\Debug\IRenderer.obj
+         App.dir\Debug\CVideoCamera.obj
+         App.dir\Debug\CVideoFile.obj
+         App.dir\Debug\IVideo.obj
+         App.vcxproj -> D:\AR_avt_3d_2\Debug\SAR.exe
+     1>Сборка проекта "D:\AR_avt_3d_2\App.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:05.74
